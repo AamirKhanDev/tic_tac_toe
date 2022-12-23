@@ -1,11 +1,10 @@
-import Board from './components/Board'
-
+import React from 'react';
+import Game from './components/Game';
 
   export default function App () {
   return (
     <div>
-      This is our Tic Tac Toe Game
-      <Board/>
+      <Game/>
       </div>
   )
   }
